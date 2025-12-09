@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
+import { podcastSection } from "../../portfolio";
+
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

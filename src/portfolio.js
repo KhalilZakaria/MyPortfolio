@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Zakaria Khalil",
+  title: "Hi, I'm Zakaria",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer & Full Stack Developer 🚀 with 4+ years of experience building high-performance backend systems, scalable microservices, and modern web applications using Java, Spring Boot, Angular, Python, and AI frameworks."
   ),
+  englishresume : "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1YVvROOup_H48HjI1tvbSMRCdpESPCMWC/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/khalilzakaria",
+  linkedin: "https://www.linkedin.com/in/zakaria-khalil-sig/",
+  gmail: "zakaria.khalil1999@gmail.com",
+  instagram: "https://www.instagram.com/zakariakhaliil",
+  stackoverflow: "https://stackoverflow.com/users/10089626/zakaria-khalil",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +48,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK JAVA ANGULAR AND CURRENTLY TRANSITIONNING INTO AI ENGINEERING",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡Design and develop robust backend architectures using Java, Spring Boot, Kafka, REST APIs."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build modern, interactive web interfaces using Angular, TypeScript, and Bootstrap."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Transform monolithic systems into cloud-ready, containerized microservices (Docker, Kubernetes, CI/CD)."
+    ),
+        emoji(
+      "⚡Build and train AI/ML models using TensorFlow, PyTorch, Scikit-learn — from data processing to deployment."
+    ),
+        emoji(
+      "⚡ Create end-to-end RAG pipelines, integrate LLMs into real products, and work with vector search & embeddings"
     )
   ],
 
@@ -81,16 +86,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "npm",
@@ -126,23 +131,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "École Hassania des Travaux Publics (EHTP)",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "GIS engineering degree",
+      duration: "September 2018 - April 2021",
+      desc: "Top engineering school in Morocco.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Ranked Top 1 in my class",
+        "Strong foundation in software engineering, algorithms, data management, and geospatial systems.",
+        "Completed a full PFE on data processing & geoportals (MorSnow Project)."
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Preparatory classes for engineering schools",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Passed the national common exam",
+      duration: "September 2016 - Mai 2028",
+      desc: "Intensive training in mathematics, physics, and engineering sciences leading to national engineering school admission",
     }
   ]
 };
@@ -153,16 +158,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
+    },
+     {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -372,8 +377,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+212-631633107",
+  email_address: "zakaria.khalil1999@gmail.com"
 };
 
 // Twitter Section
