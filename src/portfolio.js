@@ -132,7 +132,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "École Hassania des Travaux Publics (EHTP)",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/EHTP.png"),
       subHeader: "GIS engineering degree",
       duration: "September 2018 - April 2021",
       desc: "Top engineering school in Morocco.",
@@ -144,7 +144,7 @@ const educationInfo = {
     },
     {
       schoolName: "Preparatory classes for engineering schools",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/CPGE.png"),
       subHeader: "Passed the national common exam",
       duration: "September 2016 - Mai 2028",
       desc: "Intensive training in mathematics, physics, and engineering sciences leading to national engineering school admission",
@@ -180,28 +180,34 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Infotel",
+      companylogo: require("./assets/images/infotelc.png"),
+      date: "January 2026 – Present",
+      desc: "Develop AirFrance projects",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Working at the aviation field.",
+        "Analysis of client requirements and drafting of functional and technical specifications.",
+        "Full-stack development of client interfaces and back-end services using Java 8, Spring, Angular, and REST APIs."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "HPS",
+      companylogo: require("./assets/images/HPSC.png"),
+      date: "September 2021 – December 2025",
+      desc: "Part of the acquiring team in the software factory. main mission was to develop the PowerCARD project",
+      descBullets: [
+        "Migration from a monolithic architecture to microservices, integrating modern technologies such as Spring Boot, Kafka, Cloud platforms, and the ELK Stack.",
+        "Full-stack development of client interfaces and back-end services using Java 8, Spring, Angular, and REST APIs.",
+        "Writing user guides and technical documentation for system adaptation and deployment."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "CRSA",
+      companylogo: require("./assets/images/um6pcrop.png"),
+      date: "Jan 2021 – June 2021",
+      desc: "Management of the geographical data for the MorSnow project."
     }
   ]
 };
@@ -221,27 +227,14 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/postpilot.png"),
+      projectName: "PostPilot",
+      projectDesc: "A lightweight AI agent that takes one piece of content (text, link, or short video) and automatically adapts it for multiple platforms like X, LinkedIn, Instagram, and TikTok",
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/medibot.png"),
+      projectName: "Medibot",
+      projectDesc: "A medical chatbot designed to guide users from symptoms to the right level of care. Instead of diagnosing, it asks structured, medically validated questions to assess urgency, then clearly recommends self-care, a medical drug",
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -257,51 +250,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Deep learning certification by Deeplearning.ai",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "A professional certification covering the foundations and practical applications of deep learning, including neural networks, CNNs, RNNs, and model optimization using real-world case studies. It emphasizes hands-on implementation and best practices for building scalable AI solutions.",
+      image: require("./assets/images/dl.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1U5mkHxnq8DmIYrzWmlQtHUlHHBbjQSCU/view?usp=drive_link"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "State Engineering Diploma – Hassania School of Public Works (EHTP)",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "A nationally recognized state engineering diploma delivered by the Hassania School of Public Works, focusing on rigorous scientific training, engineering fundamentals, and applied problem-solving. The program develops strong analytical, technical, and project management skills through intensive coursework and engineering projects.",
+      image: require("./assets/images/EHTPDIP.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ZzoGgV76PjzmJ9ibb4qVjsQyXCxCz2T3/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Professional Scrum Master (PSM) Certification",
+      subtitle: "A globally recognized certification validating a strong understanding of Scrum theory, Agile principles, and the Scrum Master role. It demonstrates the ability to apply Scrum practices effectively to improve team collaboration, delivery, and continuous improvement.",
+      image: require("./assets/images/psm.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", 
+          url: "https://drive.google.com/file/d/126X6pG61iICTpRDBjfbKxmayuj33zkOA/view?usp=drive_link"
+        },
+
       ]
     }
   ],
